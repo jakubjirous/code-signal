@@ -14,6 +14,7 @@ In preparation for technical interviews, I discovered this platform that provide
 
 1) [Add](/src/arcade/intro/01-add/)
 2) [Century From Year](/src/arcade/intro/02-century-from-year/)
+3) [Check Palindrome](/src/arcade/intro/03-check-palindrome/)
 
 ---
 
