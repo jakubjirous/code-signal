@@ -16,6 +16,11 @@ In preparation for technical interviews, I discovered this platform that provide
 2) [Century From Year](/src/arcade/intro/02-century-from-year/)
 3) [Check Palindrome](/src/arcade/intro/03-check-palindrome/)
 
+#### Edge Of The Ocean
+
+4) [Adjacent Elements Product](/src/arcade/intro/04-adjacent-elements-product/)
+
+
 ---
 
 ## Setup
