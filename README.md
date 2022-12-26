@@ -19,6 +19,7 @@ In preparation for technical interviews, I discovered this platform that provide
 #### Edge Of The Ocean
 
 4) [Adjacent Elements Product](/src/arcade/intro/04-adjacent-elements-product/)
+5) [Shape Area](/src/arcade/intro/05-shape-area/)
 
 
 ---
