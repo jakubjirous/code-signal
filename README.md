@@ -12,7 +12,7 @@ In preparation for technical interviews, I discovered this platform that provide
 
 #### The Journey Begins
 
-1) [Add](/src/arcade/intro/01-add/
+1) [Add](/src/arcade/intro/01-add/)
 
 ---
 
