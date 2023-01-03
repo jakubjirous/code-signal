@@ -1,4 +1,4 @@
-import { makeArrayConsecutive } from "./make-array-consecutive";
+import { makeArrayConsecutive } from "../make-array-consecutive";
 
 type FirstArg = number[];
 type ExpectedResult = number;

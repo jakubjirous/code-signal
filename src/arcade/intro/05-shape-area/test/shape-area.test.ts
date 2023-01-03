@@ -1,4 +1,4 @@
-import { shapeArea } from "./shape-area";
+import { shapeArea } from "../shape-area";
 
 type FirstArg = number;
 type ExpectedResult = number;

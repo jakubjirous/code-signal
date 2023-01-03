@@ -1,4 +1,4 @@
-import { add } from "./add";
+import { add } from "../add";
 
 type FirstArg = number;
 type SecondArg = number;

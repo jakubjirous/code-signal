@@ -1,4 +1,4 @@
-import { checkPalindrome } from "./check-palindrome";
+import { checkPalindrome } from "../check-palindrome";
 
 type FirstArg = string;
 type ExpectedResult = boolean;

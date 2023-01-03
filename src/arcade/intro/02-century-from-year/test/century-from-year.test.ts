@@ -1,4 +1,4 @@
-import { centuryFromYear } from "./century-from-year";
+import { centuryFromYear } from "../century-from-year";
 
 type FirstArg = number;
 type ExpectedResult = number;

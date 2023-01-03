@@ -1,4 +1,4 @@
-import { adjacentElementsProduct } from "./adjacent-elements-product";
+import { adjacentElementsProduct } from "../adjacent-elements-product";
 
 type FirstArg = number[];
 type ExpectedResult = number;

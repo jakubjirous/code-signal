@@ -57,7 +57,9 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "test-coverage": "jest --coverage"
+    "test:w": "jest --watch",
+    "test:wa": "jest --watchAll",
+    "test:cov": "jest --coverage"
   },
   "keywords": [
     "typescript",

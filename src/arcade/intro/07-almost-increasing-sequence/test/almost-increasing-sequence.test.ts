@@ -1,4 +1,4 @@
-import { almostIncreasingSequence } from "./almost-increasing-sequence";
+import { almostIncreasingSequence } from "../almost-increasing-sequence";
 
 type FirstArg = number[];
 type ExpectedResult = boolean;
