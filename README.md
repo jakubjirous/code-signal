@@ -6,6 +6,17 @@ In preparation for technical interviews, I discovered this platform that provide
 
 ---
 
+<p align="center">
+    <img src="https://sonarcloud.io/images/project_badges/sonarcloud-white.svg" alt="Sonar Cloud">
+</p>
+
+<p align="center">
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=jakubjirous_code-signal&metric=coverage" alt="Coverage">
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=jakubjirous_code-signal&metric=ncloc" alt="Lines of Code">
+</p>
+
+---
+
 ## Arcade
 
 ### Intro
