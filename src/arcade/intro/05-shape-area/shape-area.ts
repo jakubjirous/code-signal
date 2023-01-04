@@ -1,3 +1,6 @@
+export type Input = number;
+export type Output = number;
+
 /**
  * Below we will define an n-interesting polygon.
  * Your task is to find the area of a polygon for a given n.
@@ -8,4 +11,4 @@
  *
  * @param n
  */
-export const shapeArea = (n: number): number => n * n + (n - 1) * (n - 1);
+export const shapeArea = (n: Input): Output => n * n + (n - 1) * (n - 1);

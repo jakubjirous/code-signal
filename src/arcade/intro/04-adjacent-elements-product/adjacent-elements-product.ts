@@ -1,10 +1,13 @@
+export type Input = number[];
+export type Output = number;
+
 /**
  * Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.
- * @param input
+ * @param inputArray
  */
-export const adjacentElementsProduct = (input: number[]): number => {
-  return input.reduce((acc, value, index, arr) => {
-    const nextCase = value * arr[index - 1];
+export const adjacentElementsProduct = (inputArray: Input): Output => {
+  return inputArray.reduce((acc, value, index, array) => {
+    const nextCase = value * array[index - 1];
     return nextCase > acc ? (acc = nextCase) : acc;
   }, Number.NEGATIVE_INFINITY);
 };

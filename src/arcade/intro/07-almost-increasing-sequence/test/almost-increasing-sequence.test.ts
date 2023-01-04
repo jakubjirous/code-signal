@@ -1,8 +1,6 @@
-import { almostIncreasingSequence } from "../almost-increasing-sequence";
+import { almostIncreasingSequence, Input, Output } from '../almost-increasing-sequence';
 
-type FirstArg = number[];
-type ExpectedResult = boolean;
-type Cases = [FirstArg, ExpectedResult][];
+type Cases = [Input, Output][];
 
 /**
  * Tests whether it is possible to obtain a strictly increasing sequence by removing no more than one element from the array.

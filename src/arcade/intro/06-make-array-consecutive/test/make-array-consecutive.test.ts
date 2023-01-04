@@ -1,8 +1,6 @@
-import { makeArrayConsecutive } from "../make-array-consecutive";
+import { Input, makeArrayConsecutive, Output } from '../make-array-consecutive';
 
-type FirstArg = number[];
-type ExpectedResult = number;
-type Cases = [FirstArg, ExpectedResult][];
+type Cases = [Input, Output][];
 
 /**
  * Tests the minimal number of statues that need to be added to existing statues such that it contains every integer size from an interval [L, R] (for some L, R) and no other sizes.
