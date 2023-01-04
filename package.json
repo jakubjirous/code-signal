@@ -6,6 +6,10 @@
     "type": "git",
     "url": "git+https://github.com/jakubjirous/code-signal.git"
   },
+  "keywords": [
+    "typescript",
+    "jest"
+  ],
   "author": "Jakub Jirous <info@jakubjirous.cz>",
   "license": "MIT",
   "description": "Get your Coding Report and Prepare for Interviews",
@@ -13,6 +17,14 @@
     "url": "https://github.com/jakubjirous/code-signal/issues"
   },
   "homepage": "https://github.com/jakubjirous/code-signal#readme",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "test": "jest",
+    "test:w": "jest --watch",
+    "test:wa": "jest --watchAll",
+    "test:cov": "jest --coverage"
+  },
   "dependencies": {
     "babel-jest": "^29.3.1",
     "babel-plugin-istanbul": "^6.1.1",
@@ -47,22 +59,20 @@
     "jest-worker": "^29.3.1",
     "load-tsconfig": "^0.2.3",
     "source-map": "^0.6.1",
-    "source-map-support": "^0.5.13"
+    "source-map-support": "^0.5.13",
+    "ts-node": "^10.9.1"
   },
   "devDependencies": {
     "@types/jest": "^29.2.4",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "eslint": "^8.31.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-standard-with-typescript": "^24.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
     "ts-jest": "^29.0.3",
     "typescript": "^4.9.4"
-  },
-  "scripts": {
-    "build": "tsc",
-    "test": "jest",
-    "test:w": "jest --watch",
-    "test:wa": "jest --watchAll",
-    "test:cov": "jest --coverage"
-  },
-  "keywords": [
-    "typescript",
-    "jest"
-  ]
+  }
 }
