@@ -8,6 +8,6 @@ export type Output = number;
 export const adjacentElementsProduct = (inputArray: Input): Output => {
   return inputArray.reduce((acc, value, index, array) => {
     const nextCase = value * array[index - 1];
-    return nextCase > acc ? (acc = nextCase) : acc;
+    return nextCase > acc ? nextCase : acc;
   }, Number.NEGATIVE_INFINITY);
 };
