@@ -1,8 +1,6 @@
-import { centuryFromYear } from "../century-from-year";
+import { centuryFromYear, Input, Output } from '../century-from-year';
 
-type FirstArg = number;
-type ExpectedResult = number;
-type Cases = [FirstArg, ExpectedResult][];
+type Cases = [Input, Output][];
 
 /**
  * Given a year, return the century it is in.

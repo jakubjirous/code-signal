@@ -1,8 +1,6 @@
-import { checkPalindrome } from "../check-palindrome";
+import { checkPalindrome, Input, Output } from '../check-palindrome';
 
-type FirstArg = string;
-type ExpectedResult = boolean;
-type Cases = [FirstArg, ExpectedResult][];
+type Cases = [Input, Output][];
 
 /**
  * Test if it is a palindrome.

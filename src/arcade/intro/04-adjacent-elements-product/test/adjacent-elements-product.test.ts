@@ -1,8 +1,6 @@
-import { adjacentElementsProduct } from "../adjacent-elements-product";
+import { adjacentElementsProduct, Input, Output } from '../adjacent-elements-product';
 
-type FirstArg = number[];
-type ExpectedResult = number;
-type Cases = [FirstArg, ExpectedResult][];
+type Cases = [Input, Output][];
 
 /**
  * Given an array of integers, test the pair of adjacent elements that has the largest product and return that product.

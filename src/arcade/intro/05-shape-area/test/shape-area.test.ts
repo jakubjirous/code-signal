@@ -1,8 +1,6 @@
-import { shapeArea } from "../shape-area";
+import { Input, Output, shapeArea } from '../shape-area';
 
-type FirstArg = number;
-type ExpectedResult = number;
-type Cases = [FirstArg, ExpectedResult][];
+type Cases = [Input, Output][];
 
 /**
  * Test the area of a polygon for a given n.
