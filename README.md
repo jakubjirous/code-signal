@@ -34,6 +34,11 @@ In preparation for technical interviews, I discovered this platform that provide
 5) [Shape Area](/src/arcade/intro/05-shape-area/INDEX.md)
 6) [Make Array Consecutive](/src/arcade/intro/06-make-array-consecutive/INDEX.md)
 7) [Almost Increasing Sequence](/src/arcade/intro/07-almost-increasing-sequence/INDEX.md)
+8) [Matrix Elements Sum](/src/arcade/intro/08-matrix-elements-sum/INDEX.md)
+
+#### Smooth Sailing
+
+9) [All Longest Strings](/src/arcade/intro/09-all-longest-strings/INDEX.md)
 
 ---
 
