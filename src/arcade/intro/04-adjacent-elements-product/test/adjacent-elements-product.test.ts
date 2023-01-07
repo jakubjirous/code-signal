@@ -2,9 +2,6 @@ import { adjacentElementsProduct, Input, Output } from '../adjacent-elements-pro
 
 type Cases = [Input, Output][];
 
-/**
- * Given an array of integers, test the pair of adjacent elements that has the largest product and return that product.
- */
 describe("Adjacent Elements Product", () => {
   const cases: Cases = [
     [[3, 6, -2, -5, 7, 3], 21],

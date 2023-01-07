@@ -2,9 +2,6 @@ import { Input, makeArrayConsecutive, Output } from '../make-array-consecutive';
 
 type Cases = [Input, Output][];
 
-/**
- * Tests the minimal number of statues that need to be added to existing statues such that it contains every integer size from an interval [L, R] (for some L, R) and no other sizes.
- */
 describe("Make Array Consecutive", () => {
   const cases: Cases = [
     [[6, 2, 3, 8], 3],

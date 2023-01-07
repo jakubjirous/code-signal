@@ -2,9 +2,6 @@ import { checkPalindrome, Input, Output } from '../check-palindrome';
 
 type Cases = [Input, Output][];
 
-/**
- * Test if it is a palindrome.
- */
 describe("Check Palindrome", () => {
   const cases: Cases = [
     ["aabaa", true],

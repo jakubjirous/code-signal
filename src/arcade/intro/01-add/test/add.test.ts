@@ -2,9 +2,6 @@ import { add, Output, Param1, Param2 } from '../add';
 
 type Cases = [Param1, Param2, Output][];
 
-/**
- * Testing a function that returns the sum of two numbers.
- */
 describe("Add", () => {
   const cases: Cases = [
     [1, 2, 3],

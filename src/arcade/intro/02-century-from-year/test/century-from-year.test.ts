@@ -2,9 +2,6 @@ import { centuryFromYear, Input, Output } from '../century-from-year';
 
 type Cases = [Input, Output][];
 
-/**
- * Given a year, return the century it is in.
- */
 describe("Century From Year", () => {
   const cases: Cases = [
     [1905, 20],
