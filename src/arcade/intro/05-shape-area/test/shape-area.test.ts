@@ -2,9 +2,6 @@ import { Input, Output, shapeArea } from '../shape-area';
 
 type Cases = [Input, Output][];
 
-/**
- * Test the area of a polygon for a given n.
- */
 describe("Shape Area", () => {
   const cases: Cases = [
     [2, 5],

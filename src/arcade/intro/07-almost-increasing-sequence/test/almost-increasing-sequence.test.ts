@@ -2,9 +2,6 @@ import { almostIncreasingSequence, Input, Output } from '../almost-increasing-se
 
 type Cases = [Input, Output][];
 
-/**
- * Tests whether it is possible to obtain a strictly increasing sequence by removing no more than one element from the array.
- */
 describe("Almost Increasing Sequence", () => {
   const cases: Cases = [
     [[1, 3, 2, 1], false],

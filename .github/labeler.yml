@@ -1,2 +1,5 @@
+# GitHub:
+# https://github.com/actions/labeler
+
 code-challenge:
   - any: ["src/**/*.ts"]
