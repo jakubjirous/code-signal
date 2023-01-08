@@ -1,4 +1,4 @@
-import { Input, Output, shapeArea } from '../shape-area';
+import { Input, Output, shapeArea } from "../shape-area";
 
 type Cases = [Input, Output][];
 
@@ -17,7 +17,7 @@ describe("Shape Area", () => {
   ];
 
   test.each(cases)(
-    "for n = %s output should be %s",
+    "for n = %d output should be %d",
     (firstArg, expectedResult) => {
       const result = shapeArea(firstArg);
       expect(result).toEqual(expectedResult);

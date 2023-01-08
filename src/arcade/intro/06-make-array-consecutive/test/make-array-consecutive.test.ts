@@ -1,4 +1,4 @@
-import { Input, makeArrayConsecutive, Output } from '../make-array-consecutive';
+import { Input, makeArrayConsecutive, Output } from "../make-array-consecutive";
 
 type Cases = [Input, Output][];
 
@@ -11,7 +11,7 @@ describe("Make Array Consecutive", () => {
   ];
 
   test.each(cases)(
-    "for statues = %s output should be %s",
+    "for statues = %j output should be %d",
     (firstArg, expectedResult) => {
       const result = makeArrayConsecutive(firstArg);
       expect(result).toEqual(expectedResult);

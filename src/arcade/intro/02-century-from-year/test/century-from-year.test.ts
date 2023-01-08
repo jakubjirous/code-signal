@@ -1,4 +1,4 @@
-import { centuryFromYear, Input, Output } from '../century-from-year';
+import { centuryFromYear, Input, Output } from "../century-from-year";
 
 type Cases = [Input, Output][];
 
@@ -16,7 +16,7 @@ describe("Century From Year", () => {
   ];
 
   test.each(cases)(
-    "for year %p output should be %p",
+    "for year %d output should be %d",
     (firstArg, expectedResult) => {
       const result = centuryFromYear(firstArg);
       expect(result).toEqual(expectedResult);

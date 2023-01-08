@@ -1,4 +1,4 @@
-import { add, Output, Param1, Param2 } from '../add';
+import { add, Output, Param1, Param2 } from "../add";
 
 type Cases = [Param1, Param2, Output][];
 
@@ -13,7 +13,7 @@ describe("Add", () => {
   ];
 
   test.each(cases)(
-    "for sum of %p and %p output should be %p",
+    "for sum of %d and %d output should be %d",
     (firstArg, secondArg, expectedResult) => {
       const result = add(firstArg, secondArg);
       expect(result).toEqual(expectedResult);
