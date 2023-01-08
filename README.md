@@ -39,6 +39,7 @@ In preparation for technical interviews, I discovered this platform that provide
 #### Smooth Sailing
 
 9) [All Longest Strings](/src/arcade/intro/09-all-longest-strings/INDEX.md)
+10) [Common Character Count](/src/arcade/intro/10-common-character-count/INDEX.md)
 
 ---
 
