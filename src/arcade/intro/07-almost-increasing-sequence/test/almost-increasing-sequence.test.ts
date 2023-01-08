@@ -1,4 +1,8 @@
-import { almostIncreasingSequence, Input, Output } from '../almost-increasing-sequence';
+import {
+  almostIncreasingSequence,
+  Input,
+  Output,
+} from "../almost-increasing-sequence";
 
 type Cases = [Input, Output][];
 
@@ -23,7 +27,7 @@ describe("Almost Increasing Sequence", () => {
   ];
 
   test.each(cases)(
-    "for sequence = %s output should be %s",
+    "for sequence = %j output should be %s",
     (firstArg, expectedResult) => {
       const result = almostIncreasingSequence(firstArg);
       expect(result).toEqual(expectedResult);

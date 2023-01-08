@@ -1,4 +1,8 @@
-import { adjacentElementsProduct, Input, Output } from '../adjacent-elements-product';
+import {
+  adjacentElementsProduct,
+  Input,
+  Output,
+} from "../adjacent-elements-product";
 
 type Cases = [Input, Output][];
 
@@ -15,7 +19,7 @@ describe("Adjacent Elements Product", () => {
     [[1, 0, 1, 0, 1000], 0],
   ];
 
-  test.each(cases)("for %s output should be %s", (firstArg, expectedResult) => {
+  test.each(cases)("for %j output should be %d", (firstArg, expectedResult) => {
     const result = adjacentElementsProduct(firstArg);
     expect(result).toEqual(expectedResult);
   });
