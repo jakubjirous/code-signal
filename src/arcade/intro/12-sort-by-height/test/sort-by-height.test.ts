@@ -27,7 +27,7 @@ describe("Sort By Height", () => {
   ];
 
   test.each(cases)(
-    "for a = %j output should be %j",
+    "for row = %j output should be %j",
     (firstArg, expectedResult) => {
       const result = sortByHeight(firstArg);
       expect(result).toEqual(expectedResult);
