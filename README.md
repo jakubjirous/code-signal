@@ -44,6 +44,10 @@ In preparation for technical interviews, I discovered this platform that provide
 12) [Sort By Height](/src/arcade/intro/12-sort-by-height/INDEX.md)
 13) [Reverse In Parentheses](/src/arcade/intro/13-reverse-in-parentheses/INDEX.md)
 
+#### Exploring The Waters
+ 
+14) [Alternating Sums](/src/arcade/intro/14-alternating-sums/INDEX.md)
+
 ---
 
 ## Setup
