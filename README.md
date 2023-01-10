@@ -42,6 +42,7 @@ In preparation for technical interviews, I discovered this platform that provide
 10) [Common Character Count](/src/arcade/intro/10-common-character-count/INDEX.md)
 11) [Is Lucky](/src/arcade/intro/11-is-lucky/INDEX.md)
 12) [Sort By Height](/src/arcade/intro/12-sort-by-height/INDEX.md)
+13) [Reverse In Parentheses](/src/arcade/intro/13-reverse-in-parentheses/INDEX.md)
 
 ---
 
