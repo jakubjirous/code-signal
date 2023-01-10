@@ -41,6 +41,7 @@ In preparation for technical interviews, I discovered this platform that provide
 9) [All Longest Strings](/src/arcade/intro/09-all-longest-strings/INDEX.md)
 10) [Common Character Count](/src/arcade/intro/10-common-character-count/INDEX.md)
 11) [Is Lucky](/src/arcade/intro/11-is-lucky/INDEX.md)
+12) [Sort By Height](/src/arcade/intro/12-sort-by-height/INDEX.md)
 
 ---
 
