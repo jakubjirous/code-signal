@@ -47,6 +47,7 @@ In preparation for technical interviews, I discovered this platform that provide
 #### Exploring The Waters
  
 14) [Alternating Sums](/src/arcade/intro/14-alternating-sums/INDEX.md)
+15) [Add Border](/src/arcade/intro/15-add-border/INDEX.md)
 
 ---
 
