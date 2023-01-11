@@ -49,6 +49,7 @@ In preparation for technical interviews, I discovered this platform that provide
 14) [Alternating Sums](/src/arcade/intro/14-alternating-sums/INDEX.md)
 15) [Add Border](/src/arcade/intro/15-add-border/INDEX.md)
 16) [Are Similar](/src/arcade/intro/16-are-similar/INDEX.md)
+17) [Array Change](/src/arcade/intro/17-array-change/INDEX.md)
 
 ---
 
